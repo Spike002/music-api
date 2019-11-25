@@ -1,0 +1,65 @@
+body {
+  text-align: center;
+  font-size: 20px;
+  padding: 2.5;
+
+}
+
+.track{
+  width: 250px;
+  height: 250px;
+  position: relative;
+  display: inline-block;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.track-image{
+  width: 250px;
+  height: 250px;
+}
+
+.track-text{
+  background-color: black;
+  position: absolute;
+  width: 240px;
+  bottom: 0px;
+  color: white;
+  padding: 5px;
+}
+
+.track-icon {
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  color: white;
+  background-color: black;
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+.search-field{
+  border:2px solid black;
+	font-size: 18px;
+	padding: 10px;
+	color: black;
+	border-radius: 10px;
+  margin-right: 30px;
+}
+
+.btn-search {
+  border:2px solid black;
+	font-size: 18px;
+	padding: 10px;
+	color: black;
+	border-radius: 10px;
+}
+
+.btn-search:hover {
+  border:2px solid gray;
+  background: gray;
+	color: white;
+}
